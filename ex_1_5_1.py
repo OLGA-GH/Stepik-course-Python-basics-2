@@ -5,7 +5,7 @@ class MoneyBox:
         self.accumulated_coins = 0
 
     def can_add(self, coins_count):
-        # True, если можно добавить coins_count монет, coins_count, False если монет
+        # True, если можно добавить coins_count монет, False если монет
         if self.accumulated_coins + coins_count > self.capacity:
             return False
         else:
