@@ -28,10 +28,10 @@ def get(namespace, var):
 n = int(input())
 
 for i in range(n):
-    cmd, namesp, arg = input().split()
+    cmd, namespace, arg = input().split()
     if cmd == "create":
-        create(namesp, arg)
+        create(namespace, arg)
     if cmd == "add":
-        add(namesp, arg)
+        add(namespace, arg)
     if cmd == "get":
-        get(namesp, arg)
+        get(namespace, arg)
