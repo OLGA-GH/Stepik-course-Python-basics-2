@@ -5,7 +5,7 @@ from urllib.parse import urlparse
 url = input()
 
 res = requests.get(url)
-url_list = re.findall(r'<a\s+href=[\'"]([^./][^\'"]*)[\'"]', res.text)
+url_list = re.findall(r'<a.+href=[\'"]([^./][^\'"]*)[\'"]', res.text)
 
 domains_list = []
 domains_formatted = []
