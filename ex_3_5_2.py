@@ -2,8 +2,8 @@ import requests
 import json
 import sys
 
-client_id = '0955531481ed027de82f'
-client_secret = 'c68dc852aadbd6ad213996842b171b33'
+client_id = '...'
+client_secret = '...'
 
 # инициируем запрос на получение токена
 r = requests.post("https://api.artsy.net/api/tokens/xapp_token",
