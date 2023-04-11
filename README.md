@@ -480,9 +480,11 @@ ex_3_5_2.py
 Ценность цвета равна сумме ценностей всех кубиков этого цвета.
 
 Выведите через пробел три числа: ценности красного, зеленого и синего цветов.
+
 Sample Input:
 
 \<cube color="blue"><cube color="red"\>\<cube color="green"\>\</cube\>\</cube\>\<cube color="red"\>\</cube\>\</cube\>
+
 Sample Output:
 
 4 3 1
